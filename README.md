@@ -34,15 +34,15 @@ The data flow within the application follows the strict unidirectional Redux pat
 ```mermaid
 stateDiagram-v2
     direction TB
-    State: Redux Store (counterStore)
-    View: React UI (App.jsx)
-    Dispatch: Action Dispatcher (useDispatch)
-    Reducers: Slice Reducers (counterSlice / privacySlice)
+    State: Redux Store
+    View: React UI
+    Dispatch: Action Dispatcher
+    Reducers: Slice Reducers
 
-    State --> View : useSelector (Triggers Dynamic Render)
-    View --> Dispatch : Click / Input Event
-    Dispatch --> Reducers : Dispatch Action (payload)
-    Reducers --> State : Mutates State (Immer handles immutability)
+    State --> View : useSelector
+    View --> Dispatch : Click or Input Event
+    Dispatch --> Reducers : Dispatch Action
+    Reducers --> State : Mutates State via Immer
 ```
 
 ---
