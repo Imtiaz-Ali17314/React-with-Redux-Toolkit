@@ -165,7 +165,7 @@ Make sure [Node.js](https://nodejs.org/) (version 18.0 or higher) is installed o
 ### Steps to Run
 1.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/Imtiaz-Ali17314/React-with-Redux-Toolkit.git
+    git clone https://github.com/imtiazaly/React-with-Redux-Toolkit.git
     cd React-with-Redux-Toolkit
     ```
 2.  **Install Application Dependencies**:
